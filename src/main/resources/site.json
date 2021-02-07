@@ -1,0 +1,18 @@
+{
+	"sites" : [
+		{
+			"name" : "example",
+			"loginUrl" : "https://example.com/login/",
+			"loginId" : "example@example.com",
+			"password" : "$password",
+			"xpathOfLoginIdText" : "//*[@id='loginid']",
+			"xpathOfPasswordText" : "//*[@id='password']",
+			"xpathOfLoginButton" : "//*[@id='login-btn']",
+			"searchUrl" : "http://example.com/search/",
+			"limit" : 5,
+			"interval" : 480,
+			"xpathOfSearchText" : "//*[@id='keyword']",
+			"xpathOfSearchButton" : "//*[@id='search-btn']"
+		}
+	]
+}
